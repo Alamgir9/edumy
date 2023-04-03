@@ -1,0 +1,101 @@
+@tailwind base;
+@layer base {
+    html {
+      font-family: 'Hind Siliguri', 'sans-serif';
+    }
+  }
+@tailwind components;
+.btn {
+    @apply  px-[28px] py-[10px] font-hind-siliguri font-medium rounded text-18
+}
+.btn-primary{
+@apply bg-primary px-[28px] py-[10px] font-hind-siliguri text-light rounded font-medium text-18
+}
+.explore-btn{
+  @apply bg-primary px-[16px] py-[18px] font-hind-siliguri rounded text-light text-18
+}
+.input-feild{
+
+    width: 181px;
+    height: 47px;
+    padding: 12px;
+    margin-right: 48px;
+    border-radius: 4px;
+  }
+
+  .search-icon{
+    top: 15.5px;
+    right: 58.5px;
+  }
+  .job-market-heading{
+    margin: auto;
+    text-align: center;
+
+  }
+  .courses-cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;      
+
+  }
+  .courses-card{
+    margin-top: 23px;
+    width: 275px;
+  }
+  .text-heading {
+    padding-top: 66px;
+    line-height: 78px;
+    padding-bottom: 12px;}
+   .selling-card-iteam-card-outside {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-right: 15px;
+    border: 1px solid #D8F0E1;
+
+   }
+   .lerning-enrolled{
+    border-top: 1px solid#D8F0E1;
+    padding-top: 16px;
+    padding-bottom: 16px;
+   }
+.sellig-iteam-card-inside{
+  margin-top: 16px
+}
+.lecture, .time {
+  margin-left: 8px
+}
+.card-design{
+  padding-top: 16px;
+}
+.ui-card{
+  background-color: #fff
+}
+.choose-card{
+  @apply w-[348px] h-[173px]
+  }
+.choose-card-border{
+  border-right: 1px solid #D8F0E1
+}
+.student-wrap {
+	text-align: center;
+	justify-content: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-content: center;
+	align-items: center;
+}
+.slider-btn-shape{
+ @apply w-9 h-2 rounded-lg
+}
+.list-items{
+  padding-top: 8px;
+  font-size: 18px;
+  color: #56616F;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  
+}
+@tailwind utilities;

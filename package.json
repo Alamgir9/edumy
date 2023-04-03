@@ -1,0 +1,16 @@
+{
+  "name": "edumey",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "npx tailwindcss -i ./src/css/style.css -o ./src/output/output.css --watch"
+  },
+  "dependencies": {
+    "accordion-js": "^3.3.4",
+    "yarn": "^1.22.19"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.2.7"
+  }
+}
